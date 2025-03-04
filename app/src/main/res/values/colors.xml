@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#0073e6</color> <!-- Blue -->
+    <color name="colorPrimaryDark">#005bb5</color> <!-- Dark blue -->
+    <color name="colorAccent">#ff7f50</color> <!-- Coral orange -->
+    <color name="colorPrimary2">#FF6B6B</color> <!-- Coral -->
+    <color name="colorPrimaryDark2">#FF4E4E</color> <!-- Dark Coral -->
+    <color name="colorAccent2">#FFC93C</color> <!-- Mustard Yellow -->
 </resources>
