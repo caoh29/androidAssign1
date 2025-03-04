@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MainPageStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="ButtonPressedStyle">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the title -->
+    <style name="TitleStyle">
+        <item name="android:textSize">26sp</item> <!-- Font size for the title -->
+        <item name="android:textColor">@color/colorPrimary</item> <!-- Title color -->
+        <item name="android:layout_marginTop">50dp</item> <!-- Top margin -->
+        <item name="android:layout_marginBottom">20dp</item> <!-- Bottom margin -->
+    </style>
+
+    <!-- Style for EditText (input fields) -->
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/edit_text_background</item> <!-- Custom background for input fields -->
+        <item name="android:textSize">16sp</item> <!-- Font size for input text -->
+        <item name="android:textColor">@android:color/black</item> <!-- Text color -->
+        <item name="android:paddingStart">16dp</item> <!-- Left padding -->
+        <item name="android:paddingEnd">16dp</item> <!-- Right padding -->
+        <item name="android:layout_marginBottom">20dp</item> <!-- Bottom margin -->
+    </style>
+
+    <style name="BackButtonStyle">
+        <item name="android:layout_marginTop">20dp</item> <!-- Top margin for the back button -->
+        <item name="android:layout_marginStart">16dp</item> <!-- Left margin -->
+        <item name="android:layout_marginBottom">20dp</item> <!-- Bottom margin -->
+    </style>
+
+    <style name="AppTheme2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+    </style>
+
+    <style name="TitleStyle2">
+        <item name="android:textSize">26sp</item> <!-- Font size for the title -->
+        <item name="android:textColor">@color/colorPrimary2</item> <!-- Title color -->
+        <item name="android:layout_marginTop">50dp</item> <!-- Top margin -->
+        <item name="android:layout_marginBottom">20dp</item> <!-- Bottom margin -->
+    </style>
+
+    <style name="EditTextStyle2">
+        <item name="android:background">@drawable/edit_text_background</item> <!-- Custom background for input fields -->
+        <item name="android:textSize">16sp</item> <!-- Font size for input text -->
+        <item name="android:textColor">@android:color/black</item> <!-- Text color -->
+        <item name="android:paddingStart">16dp</item> <!-- Left padding -->
+        <item name="android:paddingEnd">16dp</item> <!-- Right padding -->
+        <item name="android:layout_marginBottom">20dp</item> <!-- Bottom margin -->
+    </style>
+
+    <style name="ButtonStyle2">
+        <item name="android:backgroundTint">@color/colorPrimary2</item> <!-- Button background color -->
+        <item name="android:textColor">@android:color/white</item> <!-- Button text color -->
+        <item name="android:textSize">18sp</item> <!-- Button text size -->
+        <item name="android:paddingStart">16dp</item> <!-- Padding on the left side of the button -->
+        <item name="android:paddingEnd">16dp</item> <!-- Padding on the right side of the button -->
+        <item name="android:paddingTop">12dp</item> <!-- Padding at the top of the button -->
+        <item name="android:paddingBottom">12dp</item> <!-- Padding at the bottom of the button -->
+    </style>
+
+    <style name="BackButtonStyle2">
+        <item name="android:layout_marginTop">20dp</item> <!-- Top margin for the back button -->
+        <item name="android:layout_marginStart">16dp</item> <!-- Left margin -->
+        <item name="android:layout_marginBottom">20dp</item> <!-- Bottom margin -->
+    </style>
+
+</resources>
