@@ -37,7 +37,7 @@ class LogInActivity : AppCompatActivity() {
             if (enteredUsername == savedUserName && enteredPassword == savedPassword){
 
                 // Order to open a website using a browser (implicit)
-                val githubChangelogUrl = "https://github.blog/$enteredUsername"
+                val githubChangelogUrl = "https://github.com/$enteredUsername"
                 val openGithubChangelogUrl = Intent(Intent.ACTION_VIEW, Uri.parse(githubChangelogUrl))
                 // Launch Activity
                 startActivity(openGithubChangelogUrl)
