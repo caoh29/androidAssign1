@@ -37,6 +37,22 @@ class MainActivity : AppCompatActivity() {
             startActivity(openLogInPageIntent)
         }
 
+        // Check sign up button 2
+        mainBinding.signupButton2.setOnClickListener {
+            // Create an Order/intent
+            val openSignUpPageIntent = Intent(this, SignUp2Activity::class.java)
+            // Launch Activity
+            startActivity(openSignUpPageIntent)
+        }
+
+        // Check Log In button 2
+        mainBinding.loginButton2.setOnClickListener {
+            // Create an Order/intent
+            val openLogInPageIntent = Intent(this, LogIn2Activity::class.java)
+            // Launch Activity
+            startActivity(openLogInPageIntent)
+        }
+
         // Check Updates Button
         mainBinding.updateButton.setOnClickListener {
             // Order to open a website using a browser (implicit)

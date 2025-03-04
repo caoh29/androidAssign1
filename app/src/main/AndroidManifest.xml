@@ -16,7 +16,13 @@
             android:name=".LogInActivity"
             android:exported="false" />
         <activity
+            android:name=".LogIn2Activity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp2Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
